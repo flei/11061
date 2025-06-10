@@ -1,5 +1,32 @@
-该文件夹存放采集的槽波地震数据文件：
-1、Seg2：文件夹中存放原始采集的双分量地震数据，需注意，实际炮号与文件中的炮号不一致，需要修改。
-2、Segy：文件夹中存放转换后的双分量地震数据，文件中的炮号已经修正，可以直接使用。
-3、Segy_X：文件夹存放原始双分量数据中的X分量数据。
-4、Segy_Y：文件夹存放原始双分量数据中的Y分量数据。
+该文件夹存放转换为Segy格式的槽波地震数据文件：
+1、Segy：文件夹中存放转换后的双分量地震数据，文件中的炮号已经修正，可以直接使用。
+2、Segy_X：文件夹存放原始双分量数据中的X分量数据，炮号已经修正，可以直接使用。
+3、Segy_Y：文件夹存放原始双分量数据中的Y分量数据，炮号已经修正，可以直接使用。
+
+segy文件可用segy.exe打开，里面可显示对应信息。
+
+转换后的Segy文件，可按照普通的二进制文件直接读取。
+下面给出读取数据的示意性代码，以C＋＋语言为例。
+#include <fstream>
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+  float data;
+  ifstream infile;
+  infile.open("Shot_2_X.sgy",ios::binary);
+  int ntr = 22;   //Segy文件总道数
+  int ns = 8192;  //Segy文件的采样点
+  infile.seekg(3600,ios::beg);    //跳过3600字节的卷头
+  for(int i=0;i<ntr;i++){
+      infile.seekg(240,ios::cur); //跳过240字节的道头
+      for(int j=0;j<ns;j++){
+          infile.read((char*)&data,sizeof(float));
+          //读取每个采样点的数据,格式为float类型
+          cout<<data<<"\n";
+      }
+  }
+  infile.close();
+  return 0;
+}
