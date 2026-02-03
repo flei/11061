@@ -23,13 +23,14 @@
 
 
 ---
----
 **Statement** 
 If you use this dataset in related scientific research activities, please cite:Yao Xiaoshuai, Feng Lei, Li Songying, et al. Open Transmission Channel-Wave Dataset of the 11061 Working Face in Yi’an Coal Mine [J/OL]. Progress in Geophysics, 1–9 [2026-02-03]. https://link.cnki.net/urlid/11.2982.P.20260127.1529.094
 
+---
 **Abstract** 
 After more than a decade years of research by many scholars at home and abroad, seismic in-seam wave exploration technology has developed rapidly in the coal industry, and has been widely used in the detection of coal seam thickness, faults and collapse columns in coal mining faces. The accuracy of the in-seam wave detection algorithm usually needs to be verified by the theoretical model and the measured data. Due to the imperfection of the in-seam wave theory, there is a big difference between the in-seam wave signal simulated by the wave equation forward modeling and the in-seam wave signal actually collected in the coal mine. If the measured data of coal seam after mining can be collected, it will provide credible empirical data for the verification of channel wave detection technology. Therefore, the transmission in-seam wave data and observation system collected from the 11061 working face of Yi'an Coal Mine, along with the measured coal thickness and other related data after mining，are made publicly available. The data are jointly completed by experts from China and Germany. The acquisition and construction process is strictly standardized, and the obtained in-seam wave signal has strong typicality and representativeness. The opening of the in-seam wave data set of 11061 working face will provide a case for the scientific research of coal mine in-seam seismic wave exploration technology, and provide verification data for the majority of experts and scholars to develop new methods and technologies of channel wave data processing.
 
+---
 **Description** 
 1、Raw Data: The folder contains the originally acquired dual-component data in Seg2 format. For detailed information, see “Raw Data/Data Description.txt”.
 
