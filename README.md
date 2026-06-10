@@ -12,9 +12,9 @@
 1、原始数据：文件夹中存储原始采集的Seg2格式的双分量数据，具体信息查看“原始数据/数据说明.txt”;  
 2、转换数据：文件夹中存储转换为Segy格式的双分量和单分量数据，具体信息查看“转换数据/数据说明.txt”;  
 3、槽波采集观测系统.xlsx：对应本次槽波数据采集的观测系统，包括震源激发点坐标和检波器接收点坐标;   
-4、巷道实测煤厚数据.txt：对应工作面两侧巷道揭露的煤层厚度数据，坐标与槽波观测系统一致；   
-5、工作面内部实测数据.txt：对应工作面回采完成后，实测煤层厚度，坐标与槽波观测系统一致；   
-6、125Hz拾取槽波旅行时数据.xlsx：对应槽波频散在125Hz对应拾取的旅行时数据。   
+4、巷道实测煤厚数据.txt：11061工作面两侧巷道揭露的煤层厚度数据，坐标与槽波观测系统一致；   
+5、工作面内部实测数据.txt：11061工作面回采完成后，实测煤层厚度，坐标与槽波观测系统一致；   
+6、125Hz拾取槽波旅行时数据.xlsx：对应槽波频散在125Hz对应拾取的槽波旅行时数据。   
 
 
 ---
@@ -30,6 +30,6 @@ After more than a decade years of research by many scholars at home and abroad, 
 1、Raw Data: The folder contains the originally acquired dual-component data in Seg2 format. For detailed information, see “Raw Data/Data Description.txt”.  
 2、Converted Data: The folder contains dual-component and single-component data converted into Segy format. For detailed information, see “Converted Data/Data Description.txt”.  
 3、Channel-Wave Acquisition Observation System.xlsx: This file corresponds to the observation system used for this channel-wave data acquisition, including the coordinates of source shot points and geophone receiver points.  
-4、Measured Coal Seam Thickness Data in Roadways.txt: This file contains the coal seam thickness data exposed in the roadways on both sides of the working face. The coordinates are consistent with those in the channel-wave observation system.  
-5、Measured Data Inside the Working Face.txt: This file corresponds to the coal seam thickness measurements obtained after the mining of the working face was completed. The coordinates are consistent with those in the channel-wave observation system.  
+4、Measured Coal Seam Thickness Data in Roadways.txt: This file contains the coal seam thickness data exposed in the roadways on both sides of 11061 working face. The coordinates are consistent with those in the channel-wave observation system.  
+5、Measured Data Inside the Working Face.txt: This file corresponds to the coal seam thickness measurements obtained after the mining of 11061 working face was completed. The coordinates are consistent with those in the channel-wave observation system.  
 6、Picked Channel-Wave Travel Time Data at 125Hz.xlsx: This file contains the picked travel-time data of channel-wave dispersion at 125 Hz.   
